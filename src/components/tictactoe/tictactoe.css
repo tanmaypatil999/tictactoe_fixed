@@ -1,0 +1,62 @@
+.container
+{
+    text-align: center;
+    background: linear-gradient(145deg, #232335, #0a0a5f);
+}
+.title
+{
+    margin-top: 50px;
+    color: whitesmoke;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.title span
+{
+    color: blue;
+    padding-left: 15px;
+}
+.boxes
+{
+    background: white;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 180px;
+    width: 180px;
+}
+.board
+{
+    height: 600px;
+    width: 550px;
+    display: flex;
+    margin: auto;
+}
+.boxes img
+{
+    margin: 50px 50px;
+}
+.title img
+{
+    padding: 20px 20px;
+    height: 50px;
+}
+.restart
+{
+    width: 250px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #4e54c8, #8f94fb);
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.restart:hover
+{
+    background: linear-gradient(145deg, #357abd, #4a90e2);
+}
